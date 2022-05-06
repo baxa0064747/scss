@@ -1,0 +1,59 @@
+.choose {
+    height: 703px;
+    background-image: url(../img/pisokk.png);
+    background-color:  #C99B67;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+  .choose__title {
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    height :121px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+  }
+  .choose__text {
+    margin: auto;
+    Width :581px;
+    Height :84px; 
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .choose__list {
+      padding: 0;
+      padding-top: 80px ;
+      display: flex;
+      justify-content: space-evenly;
+      list-style-type: none;
+  }
+  
+  .choose__item {
+     margin-right: 16pxp
+  }
+  .list__title {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 35px;
+      font-variant: small-caps;
+      color: #333333;
+  }
+  .list__text {
+      Width :377px;
+      Height :56px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #333333;
+  }
