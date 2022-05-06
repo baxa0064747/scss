@@ -1,0 +1,47 @@
+// --------------------------------------------ABOUT US---------------------------------------------//
+.about-main__site-hero {
+  position: relative;
+  padding: 116px 0 261px;
+  background-image: url("../images/about-bgi.svg"), url("../images/background.png");
+  background-blend-mode: normal, overlay;
+  background-repeat: no-repeat;
+  background-size: 710px 596px, 100%;
+  background-color: #F3D7B7;
+  background-position: calc(50% + 405px) bottom, center;
+}
+
+.about-main__site-hero::before {
+  position: absolute;
+  top: -80px;
+  left: calc(50% - 40px);
+  display: block;
+  width: 214px;
+  height: 214px;
+  background-image: url("../images/logo_coffee.svg");
+  background-repeat: no-repeat;
+  background-size: 214;
+  z-index: 1;
+  content: "";
+}
+
+.about-main__list {
+  width: 372px;
+  margin-left: 100px;
+}
+
+.about-main__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #000000;
+}
+
+.about-main__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}

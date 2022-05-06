@@ -1,4 +1,6 @@
-*,*::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -13,6 +15,8 @@ body {
   flex-direction: column;
   height: 100%;
   margin: 0;
+  font-family: 'Roboto', 'arialable';
+  overflow-x: hidden;
 }
 
 main {
